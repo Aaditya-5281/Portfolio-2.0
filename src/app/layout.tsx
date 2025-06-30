@@ -4,7 +4,7 @@ import { Geist_Mono, Geist } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Metadata, Viewport } from "next";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next"
 
 type Props = {
   children: React.ReactNode;
