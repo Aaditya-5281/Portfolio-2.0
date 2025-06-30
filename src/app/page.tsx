@@ -3,17 +3,11 @@
 import SocialMedia from "@/components/SocialMedia";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AnimateIn } from "@/components/animations/AnimateIn";
-import Bun from "@/components/icons/Bun";
-import DrizzleORM from "@/components/icons/Drizzle";
 import Nextjs from "@/components/icons/Next";
 import Nodejs from "@/components/icons/Nodejs";
-import Postgres from "@/components/icons/Postgres";
 import Python from "@/components/icons/Python";
 import ReactIcon from "@/components/icons/React";
-import TailwindCSS from "@/components/icons/Tailwind";
-import Trpc from "@/components/icons/Trpc";
 import TypeScript from "@/components/icons/Typescript";
-import Vercel from "@/components/icons/Vercel";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { track } from "@vercel/analytics";
 import { ExternalLink } from "lucide-react";
@@ -391,10 +385,10 @@ const tools = {
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <Cloudflare {...props} />,
     //   title: "Cloudflare",
     // },
-    {
-      Logo: (props: React.SVGProps<SVGSVGElement>) => <Vercel {...props} />,
-      title: "Vercel",
-    },
+    //{
+    //  Logo: (props: React.SVGProps<SVGSVGElement>) => <Vercel {...props} />,
+    //  title: "Vercel",
+    //},
     {
        Logo: (props: React.SVGProps<SVGSVGElement>) => <Prisma {...props} />,
        title: "Prisma",
