@@ -285,7 +285,7 @@ const projects = [
     technologies: ["streamlit", "Python", "Langchain", "Google Gemini", "AutoGen", "LangGraph", "LangChain-Community","Google ADK"],
   },
 ];
-
+/*
 const experience = [
   {
     role: "AI Developer Intern",
@@ -296,7 +296,7 @@ const experience = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Postgres", "Google APIs"],
   }
 ];
-
+*/
 
 
 const resume = [
