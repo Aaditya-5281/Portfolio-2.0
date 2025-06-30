@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/aadit/OneDrive/Desktop/portfolio/portfolio-new-new-new-new/src/app/opengraph-image.jpg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1280, height: 640 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,yHAAA,CAAA,UAAG;IAAE,OAAO;IAAM,QAAQ;AAAI","debugId":null}}]
+}
