@@ -13,8 +13,8 @@ import { track } from "@vercel/analytics";
 import { ExternalLink } from "lucide-react";
 import Javascript from "@/components/icons/Javascript";
 import AmazonWebServices from "@/components/icons/Aws";
-import Prisma from "@/components/icons/Prisma";
 import Langchain from "@/components/icons/Langchain";
+import Mongo from "@/components/icons/Mongo";
 
 export default function Home() {
   return (
@@ -389,10 +389,10 @@ const tools = {
     //  Logo: (props: React.SVGProps<SVGSVGElement>) => <Vercel {...props} />,
     //  title: "Vercel",
     //},
-    {
-       Logo: (props: React.SVGProps<SVGSVGElement>) => <Prisma {...props} />,
-       title: "Prisma",
-    },
+    // {
+    //    Logo: (props: React.SVGProps<SVGSVGElement>) => <Prisma {...props} />,
+    //    title: "Prisma",
+    // },
     //{
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <Bun {...props} />,
     //   title: "Bun",
@@ -400,6 +400,10 @@ const tools = {
     {
       Logo: (props: React.SVGProps<SVGSVGElement>) => <Nodejs {...props} />,
       title: "NodeJS",
+    },
+    {
+      Logo: (props: React.SVGProps<SVGSVGElement>) => <Mongo {...props} />,
+      title: "MongoDB",
     },
   ],
 };
