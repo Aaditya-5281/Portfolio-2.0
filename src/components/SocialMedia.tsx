@@ -9,6 +9,7 @@ import Calcom from "./icons/Calcom";
 import React, { SVGProps } from "react";
 import socialMedia from "@/utilities/socialMedia";
 import { track } from "@vercel/analytics";
+import Medium from "@/components/icons/Medium";
 
 type IconProps = SVGProps<SVGSVGElement> & { name: string };
 
@@ -21,6 +22,7 @@ const Icon: React.FC<IconProps> = ({ name, ...props }) => {
     github: <Github {...props} />,
     x: <X {...props} />,
     calcom: <Calcom {...props} />,
+    medium: <Medium {...props} />,
   };
 
   return icons[name];

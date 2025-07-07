@@ -12,6 +12,10 @@ const socialMedia = [
     link: "https://x.com/Aaditya26082004",
   },
   {
+    name: "medium",
+    link: "https://medium.com/@aadityakumar26082004",
+  },
+  {
     name: "linkedin",
     link: "https://www.linkedin.com/in/aaditya-kumar-0b662224a",
   },
