@@ -6,7 +6,7 @@ import { AnimateIn } from "@/components/animations/AnimateIn";
 import Nextjs from "@/components/icons/Next";
 import Nodejs from "@/components/icons/Nodejs";
 import Python from "@/components/icons/Python";
-import ReactIcon from "@/components/icons/React";
+//import ReactIcon from "@/components/icons/React";
 import TypeScript from "@/components/icons/Typescript";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { track } from "@vercel/analytics";
@@ -15,10 +15,12 @@ import Javascript from "@/components/icons/Javascript";
 import AmazonWebServices from "@/components/icons/Aws";
 import Langchain from "@/components/icons/Langchain";
 import Mongo from "@/components/icons/Mongo";
+import Ollama from "@/components/icons/ollama";
+import Mcp from "@/components/icons/Mcp";
 
 export default function Home() {
   return (
-    <main className="text-zinc-900 dark:text-zinc-100 max-w-xl mx-auto px-4 py-4 mt-16">
+    <main className="text-zinc-900 dark:text-zinc-100 max-w-6xl mx-auto px-4 py-4 mt-16">
       <AnimateIn variant="fadeUp">
         <section className="mb-6">
           <AnimateIn variant="fadeUp" delay={0.2}>
@@ -28,9 +30,19 @@ export default function Home() {
             </h1>
           </AnimateIn>
           <AnimateIn variant="fadeUp" delay={0.4}>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-xl mb-8">
-              Software Engineer from India.</p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-6xl mb-8">
+                Hi, I&apos;m <b>Korella Aaditya</b>, a Final-year <b>Computer Science and Engineering</b> student at <b>VNR Vignana Jyothi Institute of Engineering and Technology</b>. 
+                <br /><br />
+                I specialize in <b>AI Engineering</b> with a strong focus on <b>Agentic AI systems</b>, <b>multi-agent orchestration</b>, and <b>LLM-based applications</b>.
+                <br /><br />
+                My recent work involves building intelligent apps using <b>AutoGen</b>, <b>LangChain</b>, and <b>OpenAI APIs</b>, including a Travel Planner and a Company Research Agent — each powered by autonomous agents handling complex workflows. I&apos;ve also built projects in <b>computer vision</b> using <b>Vision Transformer</b> and in <b>retrieval systems</b>, enabling real-time performance in similarity search and analysis.
+                <br /><br />
+                My core interest lies in creating intelligent, scalable AI systems that go beyond traditional ML pipelines — integrating <b>reasoning</b>, <b>orchestration</b>, and <b>real-time interaction</b>.
+                <br /><br />
+                I enjoy solving open-ended problems, experimenting with new architectures, and continuously learning how to make <b>AI systems more useful and autonomous</b>.
+            </p>
           </AnimateIn>
+
 
           <AnimateIn variant="fadeUp" delay={0.6}>
             <div className="flex items-center gap-5">
@@ -327,10 +339,10 @@ const tools = {
 
 
   frameworks: [
-    {
-      Logo: (props: React.SVGProps<SVGSVGElement>) => <ReactIcon {...props} />,
-      title: "React",
-    },
+    // {
+    //   Logo: (props: React.SVGProps<SVGSVGElement>) => <ReactIcon {...props} />,
+    //   title: "React",
+    // },
     {
       Logo: (props: React.SVGProps<SVGSVGElement>) => <Nextjs {...props} />,
       title: "NextJS",
@@ -338,6 +350,14 @@ const tools = {
     {
       Logo: (props: React.SVGProps<SVGSVGElement>) => <Langchain {...props} />,
       title: "Langchain",
+    },
+    {
+      Logo: () => <Ollama width={32} height={32} />,
+      title: "Ollama",
+    },
+    {
+      Logo: () => <Mcp width={32} height={32} />,
+      title: "MCP",
     },
     // {
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <ReactRouter {...props} />,
