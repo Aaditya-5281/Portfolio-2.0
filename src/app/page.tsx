@@ -33,7 +33,7 @@ export default function Home() {
             <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-6xl mb-8">
                 Hi, I&apos;m <b>Korella Aaditya</b>, a Final-year <b>Computer Science and Engineering</b> student at <b>VNR Vignana Jyothi Institute of Engineering and Technology</b>. 
                 <br /><br />
-                I specialize in <b>Artificial Intelligence and Machine Learning</b> with a strong focus on <b>Agentic AI systems</b>, <b>multi-agent orchestration</b>, and <b>LLM-based applications</b>.
+                I specialize in <b>Artificial Intelligence </b> and <b>Machine Learning</b> with a strong focus on <b>Agentic AI systems</b>, <b>multi-agent orchestration</b>, and <b>LLM-based applications</b>.
                 <br /><br />
                 My recent work involves building intelligent apps using <b>AutoGen</b>, <b>LangChain</b>, and <b>OpenAI APIs</b>, including a Travel Planner and a Company Research Agent — each powered by autonomous agents handling complex workflows. I&apos;ve also built projects in <b>computer vision</b> using <b>Vision Transformer</b> and in <b>retrieval systems</b>, enabling real-time performance in similarity search and analysis.
                 <br /><br />
