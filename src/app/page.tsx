@@ -271,7 +271,12 @@ export default function Home() {
   );
 }
 
-const projects = [
+const projects = [{
+  title: "Agentic Deep Researcher",
+  description: "AI-powered research assistant designed to automate and enhance the process of gathering, analyzing, and synthesizing information from the web. By leveraging multi-agent orchestration, integration with external APIs, and a user-friendly web interface.",
+  github: "https://github.com/Aaditya-5281/Agentic-Deep-Researcher",
+  technologies: ["streamlit", "Python", "CrewAI","Model Context Protocol","Agentic AI", "Multi-Agent Orchestration","Ollama"]
+  },
   {
     title: "AI Travel Planner",
     description: "A powerful AI-powered travel planning application that creates personalized travel itineraries using multiple AI agents.",
