@@ -21,7 +21,7 @@ const socialMedia = [
   },
   {
     name: "email",
-    link: "mailto:aadityakumar26082004@gmail.com",
+    link: "mailto:aadityakumar4042@gmail.com",
   }
 ];
 
