@@ -3,7 +3,7 @@
 import SocialMedia from "@/components/SocialMedia";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AnimateIn } from "@/components/animations/AnimateIn";
-import Nextjs from "@/components/icons/Next";
+//import Nextjs from "@/components/icons/Next";
 import Nodejs from "@/components/icons/Nodejs";
 import Python from "@/components/icons/Python";
 //import ReactIcon from "@/components/icons/React";
@@ -17,6 +17,8 @@ import Langchain from "@/components/icons/Langchain";
 import Mongo from "@/components/icons/Mongo";
 import Ollama from "@/components/icons/ollama";
 import Mcp from "@/components/icons/Mcp";
+import Prisma from "@/components/icons/Prisma";
+import Postgres from "@/components/icons/Postgres";
 
 export default function Home() {
   return (
@@ -348,10 +350,10 @@ const tools = {
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <ReactIcon {...props} />,
     //   title: "React",
     // },
-    {
-      Logo: (props: React.SVGProps<SVGSVGElement>) => <Nextjs {...props} />,
-      title: "NextJS",
-    },
+    // {
+    //   Logo: (props: React.SVGProps<SVGSVGElement>) => <Nextjs {...props} />,
+    //   title: "NextJS",
+    // },
     {
       Logo: (props: React.SVGProps<SVGSVGElement>) => <Langchain {...props} />,
       title: "Langchain",
@@ -414,10 +416,14 @@ const tools = {
     //  Logo: (props: React.SVGProps<SVGSVGElement>) => <Vercel {...props} />,
     //  title: "Vercel",
     //},
-    // {
-    //    Logo: (props: React.SVGProps<SVGSVGElement>) => <Prisma {...props} />,
-    //    title: "Prisma",
-    // },
+    {
+       Logo: (props: React.SVGProps<SVGSVGElement>) => <Prisma {...props} />,
+       title: "Prisma",
+    },
+    {
+      Logo: (props: React.SVGProps<SVGSVGElement>) => <Postgres {...props} />,
+      title: "Postgres",
+    },
     //{
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <Bun {...props} />,
     //   title: "Bun",
