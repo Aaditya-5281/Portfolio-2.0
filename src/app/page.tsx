@@ -19,6 +19,7 @@ import Ollama from "@/components/icons/ollama";
 import Mcp from "@/components/icons/Mcp";
 import Prisma from "@/components/icons/Prisma";
 import Postgres from "@/components/icons/Postgres";
+import { title } from "process";
 
 export default function Home() {
   return (
@@ -302,6 +303,12 @@ const projects = [{
     description: " AI Financial Coach is a personalized financial advisor.",
     github: "https://github.com/Aaditya-5281/Finance-Advisor",
     technologies: ["streamlit", "Python", "Langchain", "Google Gemini", "AutoGen", "LangGraph", "LangChain-Community","Google ADK"],
+  },
+  {
+    title:"Brainly",
+    description: "Brainly is your personal knowledge management system designed to store, organize, and access your thoughts, ideas, and learning materials. With sleek, intuitive UI components and powerful search and organization features, Brainly is the ultimate digital brain for managing your thoughts.",
+    github: "https://github.com/Aaditya-5281/Brainly",
+    technologies: ["Node", "TypeScript", "MongoDb", "Express", "React", "Tailwind",]
   },
 ];
 /*
