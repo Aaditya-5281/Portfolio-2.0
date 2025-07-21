@@ -19,7 +19,7 @@ import Ollama from "@/components/icons/ollama";
 import Mcp from "@/components/icons/Mcp";
 import Prisma from "@/components/icons/Prisma";
 import Postgres from "@/components/icons/Postgres";
-import { title } from "process";
+// import { title } from "process";
 
 export default function Home() {
   return (
