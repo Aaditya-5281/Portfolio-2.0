@@ -329,7 +329,7 @@ const resume = [
   {
     title: "Resume",
     description: "My Resume",
-    link: "https://drive.google.com/file/d/1_KtSjY3hXYBCX2W0ZeCmDJ7YnrjJTHHt/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1JcOn40nfiMkxs9okEJhqL20nDKvdnWzf/view?usp=sharing",
   }
 ]
 
