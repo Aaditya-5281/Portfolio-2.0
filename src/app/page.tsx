@@ -20,6 +20,7 @@ import Mcp from "@/components/icons/Mcp";
 import Prisma from "@/components/icons/Prisma";
 import Postgres from "@/components/icons/Postgres";
 // import { title } from "process";
+import Rust from "@/components/icons/Rust";
 
 export default function Home() {
   return (
@@ -348,6 +349,10 @@ const tools = {
         Logo: (props: React.SVGProps<SVGSVGElement>) => <Python {...props} />,
         title: "Python",
       },
+      {
+        Logo: (props: React.SVGProps<SVGSVGElement>) => <Rust {...props} />,
+        title: "Rust",
+      },
     ],
 
 
@@ -373,6 +378,7 @@ const tools = {
       Logo: () => <Mcp width={32} height={32} />,
       title: "MCP",
     },
+    
     // {
     //   Logo: (props: React.SVGProps<SVGSVGElement>) => <ReactRouter {...props} />,
     //   title: "React Router",
