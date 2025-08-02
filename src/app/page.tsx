@@ -350,7 +350,7 @@ const tools = {
         title: "Python",
       },
       {
-        Logo: (props: React.SVGProps<SVGSVGElement>) => <Rust {...props} />,
+        Logo: () => <Rust width={32} height={32} />,
         title: "Rust",
       },
     ],
